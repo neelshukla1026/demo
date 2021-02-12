@@ -1,96 +1,96 @@
 #header {
-    height: 105px;
-    background:linear-gradient(to right,white,rgb(248, 170, 25))
-    }
-    h1
-    {
-      text-align: center;
-      /* font-size:50px; */
-      color: #ff8801;
-    }
-    h2
-    {
-      text-align: center;
-      color:rgb(3, 138, 3);
-      /* font-size:30px; */
-    }
-    .oss{
-      display:none;
-    }
-    /* .imag { */
-    /* align-items:right; */
-  /* } */
-  .avatar{
-    vertical-align: middle;
-    width: 70px;
-    height: 38px;
-    /* border-radius: 50%; */
+  height: 105px;
+  background:linear-gradient(to right,white,rgb(248, 170, 25))
   }
- /* .footer {
-     position: fixed;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     background-color: #e99a07;
-     color: white;
-     text-align: center;
-     margin-bottom: 0;
-      padding-bottom: 0;
-      overflow: hidden;
-       margin-top: 250px;
-  }*/
-  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-  
-  /*body {
-      background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
-      font-family: 'Rubik', sans-serif;
-      background: #455A64;
-      height: 100 !important
-  }*/
-  
-  #container-fluid {
-      overflow: hidden;
-      /*margin-top: 250px;*/
-      margin-left: 0%;
-      margin-right: 0%;
-      background: #f77904;
-      color: rgb(255, 255, 255) !important;
-      margin-bottom: 0;
-      padding-bottom: 0;
+  h1
+  {
+    text-align: center;
+    /* font-size:50px; */
+    color: #ff8801;
   }
-  .fa:hover {
+  h2
+  {
+    text-align: center;
+    color:rgb(3, 138, 3);
+    /* font-size:30px; */
+  }
+  .oss{
+    display:none;
+  }
+  /* .imag { */
+  /* align-items:right; */
+/* } */
+.avatar{
+  vertical-align: middle;
+  width: 70px;
+  height: 34px;
+  /* border-radius: 50%; */
+}
+/* .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #e99a07;
+   color: white;
+   text-align: center;
+   margin-bottom: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+     margin-top: 250px;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+/*body {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #455A64;
+    height: 100 !important
+}*/
+
+#container-fluid {
+    overflow: hidden;
+    /*margin-top: 250px;*/
+    margin-left: 0%;
+    margin-right: 0%;
+    background: #f77904;
+    color: rgb(255, 255, 255) !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.fa:hover {
 opacity: 0.7;
 }
-  
-  small {
-      font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
-  }
-  
-  .bold-text {
-      color: hsla(34, 20%, 93%, 0.973) !important
-  }
-  
-  .mt-55 {
-      margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
-  }
-  
-  h3{
-      font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
-  }
-  .h22
-  {
-    color: rgb(255, 255, 255);
-    font-size:28px;
-    padding-left: 10px;
-  }
-  .social {
-      font-size: 21px !important
-  }
-  
-  .rights {
-      font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
-  }
-  /* Make the image fully responsive */
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: hsla(34, 20%, 93%, 0.973) !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3{
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+.h22
+{
+  color: rgb(255, 255, 255);
+  font-size:28px;
+  padding-left: 10px;
+}
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+/* Make the image fully responsive */
 .carousel-inner img {
 width: 100%;
 height: 100%;
@@ -161,12 +161,15 @@ padding: 2px 55px;
 
 /*2 media screen setup */
 @media screen and (max-width: 639px){
-    #header{
-      display:none;
-    }
-    .oss{
-      display:block;
-      color:#f77904;
-      text-align: center;
-    }
+  #header{
+    display:none;
   }
+  .oss{
+    display:block;
+    color:#f77904;
+    text-align: center;
+  }
+  .card{
+    margin:auto;
+  }
+}
